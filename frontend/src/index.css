@@ -537,10 +537,10 @@ a:hover {
 }
 
 .task-icons {
-  font-size: 1.8rem;
+  font-size: 1.95rem;
 }
 
 .task-icons > * {
-  margin-left: 7px;
+  margin-left: 15px;
   cursor: pointer;
 }
