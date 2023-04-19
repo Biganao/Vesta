@@ -11,10 +11,10 @@
   --color-grey: #eee;
   --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 
-  --color-purple: #9d0191;
+  --color-purple: #28a745;
   --color-orange: #ff7722;
 
-  --color-primary: #007bff;
+  --color-primary: #ff8e48;
   --color-success: #28a745;
   --color-danger: orangered;
 }
@@ -129,7 +129,10 @@ h1 {
   font-size: 4rem;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 2px solid var(--color-orange);
 }
 h3 {
   font-size: 2.5rem;
@@ -471,7 +474,7 @@ a:hover {
   /* margin-right: 5px; */
 }
 .task-form button {
-  width: 15%;
+  width: 30%;
   height: 4rem;
   font-size: 1.8rem;
   cursor: pointer;
@@ -534,7 +537,7 @@ a:hover {
 }
 
 .task-icons {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .task-icons > * {
